@@ -1,8 +1,8 @@
 ﻿server: 
   port: 3344
 spring:
-  profiles: dev #开发环境
-  label: master
+#  profiles: dev #开发环境
+#  label: master
   application:
     name: springcloud-study-config-3344
 
