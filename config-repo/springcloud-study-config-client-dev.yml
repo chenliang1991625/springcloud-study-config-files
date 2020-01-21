@@ -1,0 +1,6 @@
+﻿spring:
+  application:
+    name: springcloud-study-config-client
+server:
+  port: 3355
+  

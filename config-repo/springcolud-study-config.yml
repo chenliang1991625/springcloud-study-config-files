@@ -1,0 +1,15 @@
+﻿server: 
+  port: 13344
+spring:
+  profiles: dev #开发环境
+  label: master
+  application:
+    name: springcloud-study-config
+
+#注册到eureka服务注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
+    register-with-eureka: false
+#请保存为UTF-8格式
