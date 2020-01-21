@@ -1,10 +1,10 @@
 ﻿server: 
-  port: 13344
+  port: 3344
 spring:
   profiles: dev #开发环境
   label: master
   application:
-    name: springcloud-study-config
+    name: springcloud-study-config-3344
 
 #注册到eureka服务注册中心
 eureka:
